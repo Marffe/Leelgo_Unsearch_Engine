@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-/** Variables **/
-/* Text */
-/* Buttons */
-/* Media Queries */
 * {
   margin: 0px;
   padding: 0px;
@@ -21,13 +17,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /* Top Area */
 }
 
 .main_content .top_area {
   width: auto;
   height: 5%;
-  /* Top Area */
 }
 
 .main_content .top_area .services {
@@ -44,14 +38,11 @@
 }
 
 .main_content .top_area .services a {
-  /* Buttom size and Style */
   padding: 8px;
   border: 2px solid black;
   background-color: #c5c5c5;
-  /* Text */
   text-decoration: none;
   color: #1b1b1b;
-  /* Media Queries */
 }
 
 .main_content .top_area .services a:hover {
@@ -197,5 +188,77 @@
   width: auto;
   height: 5%;
   background-color: #aaaaaa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-/*# sourceMappingURL=style.css.map */
+
+.main_content .bot_area .section_right {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_content .bot_area .section_right a {
+  text-decoration: none;
+  color: #1b1b1b;
+  margin: 0px 12px 0px 12px;
+}
+
+@media (min-width: 290px) and (max-width: 479px) {
+  .main_content .bot_area .section_right {
+    width: 100%;
+  }
+  .main_content .bot_area .section_right #hide {
+    display: none;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .main_content .bot_area .section_right a {
+    font-size: 15px;
+    margin: 0px 8px 0px 8px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .main_content .bot_area .section_right a {
+    font-size: 24px;
+  }
+}
+
+.main_content .bot_area .section_left {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main_content .bot_area .section_left a {
+  text-decoration: none;
+  color: #1b1b1b;
+  margin-right: 12px;
+}
+
+@media (min-width: 290px) and (max-width: 479px) {
+  .main_content .bot_area .section_left {
+    display: none;
+  }
+}
+
+@media (min-width: 2560px) {
+  .main_content .bot_area .section_left a {
+    margin-right: 24px;
+    font-size: 32px;
+  }
+}
