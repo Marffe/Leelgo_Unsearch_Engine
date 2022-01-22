@@ -8,7 +8,6 @@
     <title>Leelgo - The Incredeble UNSEARCH Engine!</title>
     <link rel="icon" href="https://raw.githubusercontent.com/Marffe/Leelgo_Unsearch_Engine/main/resources/Leelgo_small_ico.png">
     <link rel="stylesheet" href="style.css">
-    <script src="pop_up.js"></script>
 </head>
 <body>
 
@@ -26,14 +25,17 @@
             <div class="action_zone">
                 <form>
                     <input type="text" placeholder="Welcome! What do you want to Unsearch?">
-                    <button>Unsearch</button>
+                    <button id="search" type="button">Unsearch</button>
                 </form>
             </div>
         </div>
 
         <!-- The pop up -->
-        <div class="search_result">
-
+        <div class="search_result" id="search_result">
+            <div class="messege_box">
+                <h1>Congrats! You find nothing</h1>
+                <p>The service works properly</p>
+            </div>
         </div>
 
         <!-- Bottom section, where the FAQ, Policies and Author name lives -->
@@ -50,5 +52,6 @@
         </div>
     </div>
     
+    <script src="pop_up.js"></script>
 </body>
 </html>
