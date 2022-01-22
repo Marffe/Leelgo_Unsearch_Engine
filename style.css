@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/** Variables **/
+/* Text */
+/* Buttons */
+/* Media Queries */
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.main_content {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* Top Area */
+}
+
+.main_content .top_area {
+  width: auto;
+  height: 5%;
+  /* Top Area */
+}
+
+.main_content .top_area .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 10px;
+}
+
+.main_content .top_area .services a {
+  /* Buttom size and Style */
+  padding: 8px;
+  border: 2px solid black;
+  background-color: #c5c5c5;
+  /* Text */
+  text-decoration: none;
+  color: #1b1b1b;
+  /* Media Queries */
+}
+
+.main_content .top_area .services a:hover {
+  background-color: #ffe9a1;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .main_content .top_area .services a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .main_content .top_area .services a {
+    font-size: 24px;
+  }
+}
+
+.main_content .mid_area {
+  width: auto;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_content .mid_area .logo {
+  width: 640px;
+  height: 235px;
+  background: url(/resources/LeelgoLogo.png);
+  background-size: cover;
+  margin: 12px;
+}
+
+@media (min-width: 290px) and (max-width: 479px) {
+  .main_content .mid_area .logo {
+    width: 271px;
+    height: 99px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .main_content .mid_area .logo {
+    width: 383px;
+    height: 141px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .main_content .mid_area .logo {
+    width: 1120px;
+    height: 411px;
+  }
+}
+
+.main_content .mid_area .action_zone form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_content .mid_area .action_zone form input {
+  width: 640px;
+  padding: 8px;
+  border: 2px solid black;
+  font-size: 18px;
+}
+
+@media (min-width: 290px) and (max-width: 479px) {
+  .main_content .mid_area .action_zone form input {
+    width: 271px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .main_content .mid_area .action_zone form input {
+    width: 383px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .main_content .mid_area .action_zone form input {
+    width: 1120px;
+    font-size: 24px;
+  }
+}
+
+.main_content .mid_area .action_zone form button {
+  width: 320px;
+  padding: 8px;
+  margin-top: 12px;
+  border: 2px solid black;
+  font-size: 18px;
+  background-color: #c5c5c5;
+}
+
+.main_content .mid_area .action_zone form button:hover {
+  background-color: #ffe9a1;
+}
+
+@media (min-width: 290px) and (max-width: 479px) {
+  .main_content .mid_area .action_zone form button {
+    width: 136px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .main_content .mid_area .action_zone form button {
+    width: 192px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .main_content .mid_area .action_zone form button {
+    width: 560px;
+    font-size: 24px;
+  }
+}
+
+.main_content .bot_area {
+  width: auto;
+  height: 5%;
+  background-color: #aaaaaa;
+}
+/*# sourceMappingURL=style.css.map */
