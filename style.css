@@ -91,7 +91,7 @@
 .main_content .mid_area .logo {
   width: 640px;
   height: 235px;
-  background: url(/resources/LeelgoLogo.png);
+  background: url(https://raw.githubusercontent.com/Marffe/Leelgo_Unsearch_Engine/main/resources/LeelgoLogo.png);
   background-size: cover;
   margin: 12px;
 }
