@@ -39,3 +39,17 @@ This page still having a lot of potential to by even **MORE USELESS** and can be
 - first complete version of the page with basic functionality properly working
 
 - An arbitrary jump of numbers because yes
+
+###### January 24, 2022 - 0.9.1
+
+- Added HTML files of other sections of the page
+
+###### January 25, 2022 - 0.9.2
+
+- Updates to Media Queries names and screen sizes
+
+- Added some content to FAQ section
+
+- Update to image and logo ubication
+
+- Deleted second Branch

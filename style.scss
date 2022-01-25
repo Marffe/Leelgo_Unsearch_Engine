@@ -56,10 +56,10 @@ $MQPC_8 : 2560px;
                 background-color: $button_hover_color;
             }
             /* Media Queries */
-            @media (min-width: #{$MQ-4}) and (max-width: #{$MQ-5 - 1px}) {
+            @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone2 - 1px}) {
                 font-size: 20px;
             }
-            @media (min-width: #{$MQ-6}) {
+            @media (min-width: #{$MQPC_8}) {
                 font-size: 24px;
             }
             }
@@ -78,7 +78,7 @@ $MQPC_8 : 2560px;
         .logo {
             width: 640px;
             height: 235px;
-            background: url(https://raw.githubusercontent.com/Marffe/Leelgo_Unsearch_Engine/main/resources/LeelgoLogo.png);
+            background: url(https://raw.githubusercontent.com/Marffe/Leelgo_Unsearch_Engine/master/resources/LeelgoLogo.png);
             background-size: cover;
             margin: 12px;
             @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone2 - 1px}) {
