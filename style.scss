@@ -8,12 +8,20 @@ $text_font  : 'Roboto', sans-serif;
 $button_color : rgb(197, 197, 197);
 $button_hover_color : rgb(255, 233, 161);
 /* Media Queries */
-$MQ-1 : 290px;
-$MQ-2 : 480px;
-$MQ-3 : 1024px;
-$MQ-4 : 1440px;
-$MQ-5 : 1920px;
-$MQ-6 : 2560px;
+$MQPhone1 : 320px;
+$MQPhone2 : 375px;
+$MQPhone3 : 425px;
+$MQPhone4 : 540px;
+$MQTablet1 : 768px;
+$MQTablet2 : 820px;
+$MQPC_1 : 1024px;
+$MQPC_2 : 1280px; /* Default */
+$MQPC_3 : 1360px;
+$MQPC_4 : 1440px;
+$MQPC_5 : 1600px;
+$MQPC_6 : 1920px;
+$MQPC_7 : 2048px;
+$MQPC_8 : 2560px;
 
 * {
     margin: 0px;
@@ -73,15 +81,15 @@ $MQ-6 : 2560px;
             background: url(https://raw.githubusercontent.com/Marffe/Leelgo_Unsearch_Engine/main/resources/LeelgoLogo.png);
             background-size: cover;
             margin: 12px;
-            @media (min-width: #{$MQ-1}) and (max-width: #{$MQ-2 - 1px}) {
+            @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone2 - 1px}) {
                 width: 271px;
                 height: 99px;
             }
-            @media (min-width: #{$MQ-2}) and (max-width: #{$MQ-3 - 1px}) {
+            @media (min-width: #{$MQPhone2}) and (max-width: #{$MQPhone3 - 1px}) {
                 width: 383px;
                 height: 141px;
             }
-            @media (min-width: #{$MQ-6}) {
+            @media (min-width: #{$MQPC_8}) {
                 width: 1120px;
                 height: 411px;
             }
@@ -96,14 +104,14 @@ $MQ-6 : 2560px;
                 padding: 8px;
                 border: 2px solid rgb(0, 0, 0);
                 font-size: 18px;
-                @media (min-width: #{$MQ-1}) and (max-width: #{$MQ-2 - 1px}) {
+                @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone2 - 1px}) {
                     width: 271px;
                     font-size: 16px;
                 }
-                @media (min-width: #{$MQ-2}) and (max-width: #{$MQ-3 - 1px}) {
+                @media (min-width: #{$MQPhone2}) and (max-width: #{$MQPhone3 - 1px}) {
                     width: 383px;
                 }
-                @media (min-width: #{$MQ-6}) {
+                @media (min-width: #{$MQPC_8}) {
                     width: 1120px;
                     font-size: 24px;
                 }
@@ -119,14 +127,14 @@ $MQ-6 : 2560px;
                 &:hover {
                     background-color: $button_hover_color;
                 }
-                @media (min-width: #{$MQ-1}) and (max-width: #{$MQ-2 - 1px}) {
+                @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone2 - 1px}) {
                     width: 136px;
                     font-size: 14px;
                 }
-                @media (min-width: #{$MQ-2}) and (max-width: #{$MQ-3 - 1px}) {
+                @media (min-width: #{$MQPhone2}) and (max-width: #{$MQPhone3 - 1px}) {
                     width: 192px;
                 }
-                @media (min-width: #{$MQ-6}) {
+                @media (min-width: #{$MQPC_8}) {
                     width: 560px;
                     font-size: 24px;
                 }
@@ -151,19 +159,19 @@ $MQ-6 : 2560px;
                 color: $text_color;
                 margin: 0px 12px 0px 12px;
             }
-            @media (min-width: #{$MQ-1}) and (max-width: #{$MQ-2 - 1px}) {
+            @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone2 - 1px}) {
                 width: 100%;
                 #hide {
                     display: none;
                 }
             }
-            @media (min-width: #{$MQ-2}) and (max-width: #{$MQ-3 - 1px}) {
+            @media (min-width: #{$MQPhone2}) and (max-width: #{$MQPhone3 - 1px}) {
                 a {
                     font-size: 15px;
                     margin: 0px 8px 0px 8px;
                 }
             }
-            @media (min-width: #{$MQ-6}) {
+            @media (min-width: #{$MQPC_8}) {
                 a {
                     font-size: 24px;
                 }
@@ -179,10 +187,10 @@ $MQ-6 : 2560px;
                 color: $text_color;
                 margin-right: 12px;
             }
-            @media (min-width: #{$MQ-1}) and (max-width: #{$MQ-2 - 1px}) {
+            @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone1 - 1px}) {
                 display: none;
             }
-            @media (min-width: #{$MQ-6}) {
+            @media (min-width: #{$MQPC_8}) {
                 a {
                     margin-right: 24px;
                     font-size: 32px;
@@ -213,7 +221,7 @@ $MQ-6 : 2560px;
             h1 {
                 margin: 20px;
             }
-            @media (min-width: #{$MQ-1}) and (max-width: #{$MQ-2 - 1px}) {
+            @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone1 - 1px}) {
                 width: 290px;
                 height: 100px;
                 h1 {
@@ -221,7 +229,7 @@ $MQ-6 : 2560px;
                     margin: 8px;
                 }
             }
-            @media (min-width: #{$MQ-6}) {
+            @media (min-width: #{$MQPhone1}) {
                 width: 910px;
                 height: 244px;
                 h1 {
