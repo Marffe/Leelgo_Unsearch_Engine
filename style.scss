@@ -57,9 +57,18 @@ $MQPC_8 : 2560px;
             }
             /* Media Queries */
             @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone2 - 1px}) {
+                font-size: 16px;
+            }
+            @media (min-width: #{$MQPhone2}) and (max-width: #{$MQPhone3 - 1px}) {
+                font-size: 18px;
+            }
+            @media (min-width: #{$MQPhone3}) and (max-width: #{$MQPC_3 - 1px}) {
                 font-size: 20px;
             }
-            @media (min-width: #{$MQPC_8}) {
+            @media (min-width: #{$MQPC_4}) and (max-width: #{$MQPC_5 - 1px}) {
+                font-size: 22px;
+            }
+            @media (min-width: #{$MQPC_6}) and (max-width: #{$MQPC_8}) {
                 font-size: 24px;
             }
             }
@@ -86,8 +95,28 @@ $MQPC_8 : 2560px;
                 height: 99px;
             }
             @media (min-width: #{$MQPhone2}) and (max-width: #{$MQPhone3 - 1px}) {
-                width: 383px;
-                height: 141px;
+                width: 311px;
+                height: 114px;
+            }
+            @media (min-width: #{$MQPhone3}) and (max-width: #{$MQPhone4 - 1px}) {
+                width: 379px;
+                height: 139px;
+            }
+            @media (min-width: #{$MQPhone4}) and (max-width: #{$MQTablet1 - 1px}) {
+                width: 404px;
+                height: 148px;
+            }
+            @media (min-width: #{$MQTablet1}) and (max-width: #{$MQPC_1 - 1px}) {
+                width: 524px;
+                height: 192px;
+            }
+            @media (min-width: #{$MQPC_5}) and (max-width: #{$MQPC_6 - 1px}) {
+                width: 736px;
+                height: 270px;
+            }
+            @media (min-width: #{$MQPC_6}) and (max-width: #{$MQPC_7 - 1px}) {
+                width: 896px;
+                height: 329px;
             }
             @media (min-width: #{$MQPC_8}) {
                 width: 1120px;
@@ -106,14 +135,35 @@ $MQPC_8 : 2560px;
                 font-size: 18px;
                 @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone2 - 1px}) {
                     width: 271px;
-                    font-size: 16px;
+                    font-size: 14px;
                 }
                 @media (min-width: #{$MQPhone2}) and (max-width: #{$MQPhone3 - 1px}) {
-                    width: 383px;
+                    width: 311px;
+                    font-size: 16px;
+                }
+                @media (min-width: #{$MQPhone3}) and (max-width: #{$MQPhone4 - 1px}) {
+                    width: 379px;
+                    font-size: 16px;
+                }
+                @media (min-width: #{$MQPhone4}) and (max-width: #{$MQTablet1 - 1px}) {
+                    width: 404px;
+                    font-size: 16px;
+                }
+                @media (min-width: #{$MQTablet1}) and (max-width: #{$MQPC_1 - 1px}) {
+                    width: 524px;
+                    font-size: 16px;
+                }
+                @media (min-width: #{$MQPC_5}) and (max-width: #{$MQPC_6 - 1px}) {
+                    width: 736px;
+                    font-size: 18px;
+                }
+                @media (min-width: #{$MQPC_6}) and (max-width: #{$MQPC_7 - 1px}) {
+                    width: 896px;
+                    font-size: 22px;
                 }
                 @media (min-width: #{$MQPC_8}) {
                     width: 1120px;
-                    font-size: 24px;
+                    font-size: 26px;
                 }
             }
             button {
@@ -132,11 +182,32 @@ $MQPC_8 : 2560px;
                     font-size: 14px;
                 }
                 @media (min-width: #{$MQPhone2}) and (max-width: #{$MQPhone3 - 1px}) {
-                    width: 192px;
+                    width: 156px;
+                    font-size: 16px;
+                }
+                @media (min-width: #{$MQPhone3}) and (max-width: #{$MQPhone4 - 1px}) {
+                    width: 190px;
+                    font-size: 16px;
+                }
+                @media (min-width: #{$MQPhone4}) and (max-width: #{$MQTablet1 - 1px}) {
+                    width: 202px;
+                    font-size: 16px;
+                }
+                @media (min-width: #{$MQTablet1}) and (max-width: #{$MQPC_1 - 1px}) {
+                    width: 262px;
+                    font-size: 16px;
+                }
+                @media (min-width: #{$MQPC_5}) and (max-width: #{$MQPC_6 - 1px}) {
+                    width: 368px;
+                    font-size: 18px;
+                }
+                @media (min-width: #{$MQPC_6}) and (max-width: #{$MQPC_7 - 1px}) {
+                    width: 448px;
+                    font-size: 22px;
                 }
                 @media (min-width: #{$MQPC_8}) {
                     width: 560px;
-                    font-size: 24px;
+                    font-size: 26px;
                 }
             }
         }
@@ -159,25 +230,25 @@ $MQPC_8 : 2560px;
                 color: $text_color;
                 margin: 0px 12px 0px 12px;
             }
-            @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone2 - 1px}) {
+            @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone4 - 1px}) {
                 width: 100%;
                 font-size: 16px;
                 #hide {
                     display: none;
                 }
             }
-            @media (min-width: #{$MQPhone2}) and (max-width: #{$MQPhone3 - 1px}) {
-                a {
-                    font-size: 15px;
-                    margin: 0px 8px 0px 8px;
-                }
+            @media (min-width: #{$MQPC_3}) and (max-width: #{$MQPC_5 - 1px}) {
+                font-size: 20px;
+            }
+            @media (min-width: #{$MQPC_5}) and (max-width: #{$MQPC_6 - 1px}) {
+                font-size: 22px;
+            }
+            @media (min-width: #{$MQPC_6}) and (max-width: #{$MQPC_7 - 1px}) {
+                font-size: 24px;
             }
             @media (min-width: #{$MQPC_8}) {
-                a {
-                    font-size: 24px;
-                }
+                font-size: 30px;
             }
-            
         }
         .section_left {
             width: 30%;
@@ -188,15 +259,21 @@ $MQPC_8 : 2560px;
                 color: $text_color;
                 margin-right: 12px;
             }
-            @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone2 - 1px}) {
+            @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone4 - 1px}) {
                 font-size: 12px;
                 text-align: center;
             }
+            @media (min-width: #{$MQPC_3}) and (max-width: #{$MQPC_5 - 1px}) {
+                font-size: 20px;
+            }
+            @media (min-width: #{$MQPC_5}) and (max-width: #{$MQPC_6 - 1px}) {
+                font-size: 22px;
+            }
+            @media (min-width: #{$MQPC_6}) and (max-width: #{$MQPC_7 - 1px}) {
+                font-size: 24px;
+            }
             @media (min-width: #{$MQPC_8}) {
-                a {
-                    margin-right: 24px;
-                    font-size: 32px;
-                }
+                font-size: 30px;
             }
         }
     /* Bot area */
@@ -223,12 +300,21 @@ $MQPC_8 : 2560px;
             h1 {
                 margin: 20px;
             }
-            @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone2 - 1px}) {
+            @media (min-width: #{$MQPhone1}) and (max-width: #{$MQPhone4 - 1px}) {
                 width: 290px;
                 height: 100px;
                 h1 {
                     font-size: 22px;
                     margin: 8px;
+                }
+            }
+            @media (min-width: #{$MQPC_6}) and (max-width: #{$MQPC_7 - 1px}) {
+                h1 {
+                    font-size: 32px;
+                    margin: 8px;
+                }
+                p {
+                    font-size: 20px;
                 }
             }
             @media (min-width: #{$MQPC_8}) {

@@ -66,11 +66,29 @@
 
 @media (min-width: 320px) and (max-width: 374px) {
   .main_content .top_area .services a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .main_content .top_area .services a {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 1359px) {
+  .main_content .top_area .services a {
     font-size: 20px;
   }
 }
 
-@media (min-width: 2560px) {
+@media (min-width: 1440px) and (max-width: 1599px) {
+  .main_content .top_area .services a {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
   .main_content .top_area .services a {
     font-size: 24px;
   }
@@ -112,8 +130,43 @@
 
 @media (min-width: 375px) and (max-width: 424px) {
   .main_content .mid_area .logo {
-    width: 383px;
-    height: 141px;
+    width: 311px;
+    height: 114px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 539px) {
+  .main_content .mid_area .logo {
+    width: 379px;
+    height: 139px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+  .main_content .mid_area .logo {
+    width: 404px;
+    height: 148px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main_content .mid_area .logo {
+    width: 524px;
+    height: 192px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .main_content .mid_area .logo {
+    width: 736px;
+    height: 270px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2047px) {
+  .main_content .mid_area .logo {
+    width: 896px;
+    height: 329px;
   }
 }
 
@@ -150,20 +203,56 @@
 @media (min-width: 320px) and (max-width: 374px) {
   .main_content .mid_area .action_zone form input {
     width: 271px;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
 @media (min-width: 375px) and (max-width: 424px) {
   .main_content .mid_area .action_zone form input {
-    width: 383px;
+    width: 311px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 539px) {
+  .main_content .mid_area .action_zone form input {
+    width: 379px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+  .main_content .mid_area .action_zone form input {
+    width: 404px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main_content .mid_area .action_zone form input {
+    width: 524px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .main_content .mid_area .action_zone form input {
+    width: 736px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2047px) {
+  .main_content .mid_area .action_zone form input {
+    width: 896px;
+    font-size: 22px;
   }
 }
 
 @media (min-width: 2560px) {
   .main_content .mid_area .action_zone form input {
     width: 1120px;
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 
@@ -190,14 +279,50 @@
 
 @media (min-width: 375px) and (max-width: 424px) {
   .main_content .mid_area .action_zone form button {
-    width: 192px;
+    width: 156px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 539px) {
+  .main_content .mid_area .action_zone form button {
+    width: 190px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+  .main_content .mid_area .action_zone form button {
+    width: 202px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main_content .mid_area .action_zone form button {
+    width: 262px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .main_content .mid_area .action_zone form button {
+    width: 368px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2047px) {
+  .main_content .mid_area .action_zone form button {
+    width: 448px;
+    font-size: 22px;
   }
 }
 
 @media (min-width: 2560px) {
   .main_content .mid_area .action_zone form button {
     width: 560px;
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 
@@ -230,7 +355,7 @@
   margin: 0px 12px 0px 12px;
 }
 
-@media (min-width: 320px) and (max-width: 374px) {
+@media (min-width: 320px) and (max-width: 539px) {
   .main_content .bot_area .section_right {
     width: 100%;
     font-size: 16px;
@@ -240,16 +365,27 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 424px) {
-  .main_content .bot_area .section_right a {
-    font-size: 15px;
-    margin: 0px 8px 0px 8px;
+@media (min-width: 1360px) and (max-width: 1599px) {
+  .main_content .bot_area .section_right {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .main_content .bot_area .section_right {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2047px) {
+  .main_content .bot_area .section_right {
+    font-size: 24px;
   }
 }
 
 @media (min-width: 2560px) {
-  .main_content .bot_area .section_right a {
-    font-size: 24px;
+  .main_content .bot_area .section_right {
+    font-size: 30px;
   }
 }
 
@@ -269,17 +405,34 @@
   margin-right: 12px;
 }
 
-@media (min-width: 320px) and (max-width: 374px) {
+@media (min-width: 320px) and (max-width: 539px) {
   .main_content .bot_area .section_left {
     font-size: 12px;
     text-align: center;
   }
 }
 
+@media (min-width: 1360px) and (max-width: 1599px) {
+  .main_content .bot_area .section_left {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .main_content .bot_area .section_left {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2047px) {
+  .main_content .bot_area .section_left {
+    font-size: 24px;
+  }
+}
+
 @media (min-width: 2560px) {
-  .main_content .bot_area .section_left a {
-    margin-right: 24px;
-    font-size: 32px;
+  .main_content .bot_area .section_left {
+    font-size: 30px;
   }
 }
 
@@ -321,7 +474,7 @@
   margin: 20px;
 }
 
-@media (min-width: 320px) and (max-width: 374px) {
+@media (min-width: 320px) and (max-width: 539px) {
   .main_content .search_result .messege_box {
     width: 290px;
     height: 100px;
@@ -329,6 +482,16 @@
   .main_content .search_result .messege_box h1 {
     font-size: 22px;
     margin: 8px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2047px) {
+  .main_content .search_result .messege_box h1 {
+    font-size: 32px;
+    margin: 8px;
+  }
+  .main_content .search_result .messege_box p {
+    font-size: 20px;
   }
 }
 

@@ -53,3 +53,7 @@ This page still having a lot of potential to by even **MORE USELESS** and can be
 - Update to image and logo ubication
 
 - Deleted second Branch
+
+###### January 28, 2022 - 0.9.4
+
+- Totally fixed Media Queries for all components of the main page
