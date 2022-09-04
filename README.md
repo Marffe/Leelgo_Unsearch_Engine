@@ -6,21 +6,29 @@ Out of joke this is the first page I made in this Year, and it showcases the ski
 
 - SASS StylesSheet with a (defiantly improvable) Responsive design for the page
 
-- A call to action to **DO NOTHING** than waste your time, sending a pop-up message as the response to the action, using vanilla JS to make the pop-up appear
+- A call to action to **DO NOTHING** than waste your time, sending a pop-up message as the response to the action, using vanilla JS to make the pop-up appear, with a *Random* Quote every time you use it
 
 - Simple Google-like layout, easy to imitate
 
 - Markdown file that have of had read already and more below
 
+- Multiple Pages with quite uninteresting info
+
+- Multiple Languajes Support (English, Spanish, Portuguese)
+
 ## Possible features
 
 This page still having a lot of potential to by even **MORE USELESS** and can be a good practice for me me by adding these features I think when I was writing this part
 
-- Make the FAQ, Terms and Policies and Credits send you to a page with info related to each one
+- FAQ Section
 
-- Make the contact link do exactly what is name means: links you to another page
+- Terms and Policies Section 
 
-- Force the user to waste even more time by force them to write something to make the pop-up appears
+- Credits Section
+
+- Make all links do exactly what their name means: links to another page
+
+- Random Quotes everytime you click the Unsearch
 
 - Improve the Responsive design
 
@@ -34,17 +42,17 @@ This page still having a lot of potential to by even **MORE USELESS** and can be
 
 - first iteration of the page, really WIP
 
-###### January 22, 2022 - 0.9
+###### January 22, 2022 - 0.2
 
 - first complete version of the page with basic functionality properly working
 
 - An arbitrary jump of numbers because yes
 
-###### January 24, 2022 - 0.9.1
+###### January 24, 2022 - 0.2.1
 
 - Added HTML files of other sections of the page
 
-###### January 25, 2022 - 0.9.2
+###### January 25, 2022 - 0.2.2
 
 - Updates to Media Queries names and screen sizes
 
@@ -54,6 +62,14 @@ This page still having a lot of potential to by even **MORE USELESS** and can be
 
 - Deleted second Branch
 
-###### January 28, 2022 - 0.9.4
+###### January 28, 2022 - 0.2.4
 
 - Totally fixed Media Queries for all components of the main page
+
+##### September 4, 2022 - 0.2.5
+
+- Project Alive again, some changes to the Markdown file
+
+- Preparing an Universal Navbar for each Infographic page of the site
+
+- Adding Basic Syntax to contact.html
